@@ -60,12 +60,18 @@ def register():
         name = request.form['name']
         email = request.form['email']
         password = request.form['password']
+        
+        # Check if user already exists
+        existing_user = User.query.filter_by(email=email).first()
+        if existing_user:
+            return render_template('register.html', error='Email already registered')
+        
         new_user = User(name=name, email=email, password=password)
         db.session.add(new_user)
         db.session.commit()
         return redirect('/login')
+    
     return render_template('register.html')
-
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     if request.method == 'POST':
