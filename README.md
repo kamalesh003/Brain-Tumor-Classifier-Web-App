@@ -35,3 +35,11 @@ Confusion Matrix:
  [  0   3 402   0]
  [  0   2   0 298]]
 ```
+
+**Confusion Matrix**
+<img width="513" height="470" alt="image" src="https://github.com/user-attachments/assets/6afdb3bb-4318-45ec-8daa-450a4fefe3c3" />
+
+
+# Classification
+<img width="1570" height="750" alt="image" src="https://github.com/user-attachments/assets/6ac95667-3004-4d7e-ab94-c33e6c1e8bcb" />
+
