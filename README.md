@@ -36,7 +36,7 @@ Confusion Matrix:
  [  0   2   0 298]]
 ```
 
-**Confusion Matrix**
+# Confusion Matrix
 <img width="513" height="470" alt="image" src="https://github.com/user-attachments/assets/6afdb3bb-4318-45ec-8daa-450a4fefe3c3" />
 
 
