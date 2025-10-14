@@ -1,5 +1,7 @@
 # Brain_Tumor_Classification
 
+This web application performs automated brain tumor classification by processing MRI images (150×150×3) through a hybrid deep learning pipeline. It fuses features from pretrained VGG16 (capturing fine spatial details) and InceptionV3 (capturing multi-scale abstract patterns), concatenates the extracted features, and passes them through fully connected dense layers ending with a softmax layer to classify tumors into four categories. The app delivers highly accurate predictions in real-time, providing an interactive interface for clinicians to upload scans and obtain diagnostic results efficiently.
+
 ## Dataset: ## 
 https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
 
